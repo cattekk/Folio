@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title> Portfolio Marleen Hauser</title>
+	<meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://use.typekit.net/qms1hcu.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="javascript.js"> </script>
+	<script src="https://kit.fontawesome.com/8473d7ba1a.js" crossorigin="anonymous"></script>
+
+</head>
+	<body>
+	<div id="header"> 
+			<nav class="sticky">
+				<a href="index.html#header" >
+			  				<img src="pngs/lotzi.png" alt="" class="logo"/>
+			  	</a>
+				<ul id="sidemenu">
+	       			<li>	<a href="#work">WORK</a> </li>
+					<li>	<a href="#about">ABOUT</a></li>
+					<li>	<a href="#skills">SKILLS</a></li>
+			  		<li>	<i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+					
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+		</nav>
+      </div>	
+
+<!-------------- folio -------------->
+<div id="work">
+	<div class="container1">
+		<h1 class="sub-title"> WORK</h1>
+		<div class="work-list">
+			<div class="works">
+				<a href="projects.html" target="_blank"> 
+					<img src="pngs/sad.png" alt="">
+						<div class="layer">
+							<h3> Projects </h3>
+						</div>
+				</a>
+		    </div>
+			<div class="works">
+				<img src="pngs/100faces.png" alt="">
+				<div class="layer">
+					<h3> 2D (WIP)</h3>
+		        </div>
+			</div>
+			<div class="works">
+				<img src="pngs/3ddonut.png" alt="">
+				<div class="layer">
+					<h3> 3D (WIP) </h3>
+		        </div>
+		    </div> 
+		</div>
+	</div>	
+</div>
+<!-------------- about -------------->
+<div id="about">
+	<div class="container2">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="pngs/mefight.png" alt="">
+			</div>
+			<div class="about-col-2">
+				<h1 class="bighello"> Hello!</h1>
+				<h1> &nbsp</h1>
+				<p class="text"> Hier steht ein Text wieso Marleen   </p>
+				<p class="text"> sehr cool ist und unbedingt den job </p>
+				<p class="text"> bekommen sollte                     </p>
+				<p class="text"> aaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+				<p class="text"> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+				<p class="text"> aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+				<p class="text"> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+				<a href="mailto:Marleen.Hauser@gmail.com"> 
+					<i class="fa-regular fa-envelope"></i>
+				</a>
+				<i>&nbsp</i>
+				<a href="https://www.instagram.com/cattekk" target="_blank">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+				<i>&nbsp</i>
+			    <a href="https://www.artstation.com/cattekk" target="_blank">
+				 	<i class="fa-brands fa-artstation"></i>
+			    </a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-------------- skills -------------->
+<div id="skills">
+			<div class="card">
+				 <div class="white-column">
+					 <h1> Skills</h1>
+					 <h2> &nbsp</h2>
+					 <h2> &nbsp</h2>
+					 <li> zwei komplizierte skills die mehr als eine Zeile erfordern und deswegen besonders </li>
+					 
+					 <li> professionell aussehen und sehr gut ins Layout passten aber irrelevant sind   </li>
+					 <p> &nbsp</p>
+					
+					 <li> Dark Souls Triologie MEHRFACH durchgespielt  </li>
+					 <li> Diamond 3 peak in League of Legends  </li>
+					 <li> Energydrinktuerme </li>
+					 <li> Fuehrerschein  </li>		 	
+				</div>
+				<div class="black-column">
+					<li> HTML</li>
+					<li> CSS</li>
+					<h2> &nbsp</h2>
+					<img src="pngs/skillset.png" alt="" />
+				</div>
+		</div>
+</div>
+<!-------------- script -------------->
+<script>
+		var sidemeu= document.getElementById("sidemenu");
+	
+		function openmenu(){
+			sidemeu.style.right = "0";
+		}
+		function closemenu(){
+			sidemeu.style.right ="-200px"
+
+		}
+</script>
+    </body>
+
+</html>
