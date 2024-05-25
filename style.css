@@ -306,7 +306,9 @@ nav .fa-solid{
 	.bighello{
 		font-size:50px;
 	}
-	
+	.text{
+		font-size:25px;
+	}
 	.about-col-1{
 		display:none;
 	}
